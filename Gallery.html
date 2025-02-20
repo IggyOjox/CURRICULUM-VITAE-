@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="style.css" type="text/css" /> 
+    </head> 
+    <body> 
+        <h2>Gallery</h2> 
+        <div class="Gallery"> 
+            <img src="" onclick="FullView(this.src)"/> 
+            <img src="" onclick="FullView(this.src)"/> 
+            <img src="" onclick="FullView(this.src)"/> 
+            <img src="" onclick="FullView(this.src)"/> 
+            <img src="" onclick="FullView(this.src)"/> 
+            <img src="" onclick="FullView(this.src)"/> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWmYIW2mfsEQe_QiHfyc726ccVNmPxKAcjOQ&s"onclick="Fullview(This.src)"/>
+        </div> 
+        <div id="FullImageView"> 
+            <img id="FullImage" /> 
+            <span id="CloseButton" onclick="CloseFullView()"></span> 
+        </div> 
+        <script type="text/javascript"> 
+            function FullView(ImgLink) {
+                alert(ImgLink);
+            }
+        </script> 
+    </body> 
+</html> 
